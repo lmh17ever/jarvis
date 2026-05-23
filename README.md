@@ -1,4 +1,4 @@
-# Jarvis (brainstorm)
+# Jarvis
 
 Lightweight local voice assistant prototype (Python).
 
