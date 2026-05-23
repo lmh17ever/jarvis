@@ -1,0 +1,64 @@
+# Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+venv.bak/
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Byte-compiled
+*.pyc
+
+# Output directory (unrelated to project) — ignore entirely
+# Contains exported runtime artifacts and packaged binaries; not part of repository
+output/
+# Packaged outputs and large models
+output/jasper/
+vosk-model*/
+vosk-model-*/
+*.torrent
+
+# Optional: ignore recorded audio (uncomment if you don't want to track recordings)
+# audio/accepted/
+# audio/not_recognized/
+# audio/test/
